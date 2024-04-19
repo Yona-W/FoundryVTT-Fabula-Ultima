@@ -16,14 +16,14 @@ export class AffinitiesDataModel extends foundry.abstract.DataModel {
 		const { EmbeddedDataField } = foundry.data.fields;
 		return {
 			physical: new EmbeddedDataField(AffinityDataModel, {}),
+			poison: new EmbeddedDataField(AffinityDataModel, {}),
 			air: new EmbeddedDataField(AffinityDataModel, {}),
 			bolt: new EmbeddedDataField(AffinityDataModel, {}),
-			dark: new EmbeddedDataField(AffinityDataModel, {}),
 			earth: new EmbeddedDataField(AffinityDataModel, {}),
 			fire: new EmbeddedDataField(AffinityDataModel, {}),
 			ice: new EmbeddedDataField(AffinityDataModel, {}),
 			light: new EmbeddedDataField(AffinityDataModel, {}),
-			poison: new EmbeddedDataField(AffinityDataModel, {}),
+			dark: new EmbeddedDataField(AffinityDataModel, {}),
 		};
 	}
 }
