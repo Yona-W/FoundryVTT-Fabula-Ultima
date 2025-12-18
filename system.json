@@ -2,7 +2,7 @@
 	"id": "projectfu",
 	"title": "Fabula Ultima (Project FU)",
 	"description": "An Unofficial Fabula Ultima system for FoundryVTT!",
-	"version": "#{VERSION}#",
+	"version": "4.0.2",
 	"compatibility": {
 		"minimum": "13",
 		"verified": "13",
